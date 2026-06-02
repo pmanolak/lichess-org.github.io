@@ -1,8 +1,6 @@
 [
   {
-    "relation": [
-      "delegate_permission/common.handle_all_urls"
-    ],
+    "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
       "package_name": "org.lichess.mobileV2",
@@ -22,21 +20,21 @@
           { "/": "/@/*" },
           { "/": "/tv/*" },
           { "/": "/broadcast/*" },
-          { "/": "/training",  "exclude": true },
-          { "/": "/analysis",  "exclude": true },
-          { "/": "/settings",  "exclude": true },
-          { "/": "/coaching",  "exclude": true },
-          { "/": "/streamer",  "exclude": true },
-          { "/": "/download",  "exclude": true },
-          { "/": "/features",  "exclude": true },
-          { "/": "/timeline",  "exclude": true },
-          { "/": "/variants",  "exclude": true },
-          { "/": "/practice",  "exclude": true },
-          { "/": "/openings",  "exclude": true },
-          { "/": "/calendar",  "exclude": true },
-          { "/": "/password",  "exclude": true },
-          { "/": "/security",  "exclude": true },
-          { "/": "/activity",  "exclude": true },
+          { "/": "/training", "exclude": true },
+          { "/": "/analysis", "exclude": true },
+          { "/": "/settings", "exclude": true },
+          { "/": "/coaching", "exclude": true },
+          { "/": "/streamer", "exclude": true },
+          { "/": "/download", "exclude": true },
+          { "/": "/features", "exclude": true },
+          { "/": "/timeline", "exclude": true },
+          { "/": "/variants", "exclude": true },
+          { "/": "/practice", "exclude": true },
+          { "/": "/openings", "exclude": true },
+          { "/": "/calendar", "exclude": true },
+          { "/": "/password", "exclude": true },
+          { "/": "/security", "exclude": true },
+          { "/": "/activity", "exclude": true },
           { "/": "/????????" },
           { "/": "/????????/black" },
           { "/": "/????????/white" },
@@ -46,18 +44,14 @@
     }
   },
   {
-    "relation": [
-      "lookalikes/allowlist"
-    ],
+    "relation": ["lookalikes/allowlist"],
     "target": {
       "namespace": "web",
       "site": "https://lichess.org"
     }
   },
   {
-    "relation": [
-      "lookalikes/allowlist"
-    ],
+    "relation": ["lookalikes/allowlist"],
     "target": {
       "namespace": "web",
       "site": "https://lichess-org.github.io"
