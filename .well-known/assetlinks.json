@@ -12,6 +12,7 @@
     "relation_extensions": {
       "delegate_permission/common.handle_all_urls": {
         "dynamic_app_link_components": [
+          { "/": "/account/oauth/mobile-callback" },
           { "/": "/training/?*" },
           { "/": "/study/????????" },
           { "/": "/study/????????/????????" },

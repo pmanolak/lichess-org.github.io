@@ -4,6 +4,7 @@
       {
         "appIDs": ["HP5YLVDU97.org.lichess.mobileV2"],
         "components": [
+          { "/": "/account/oauth/mobile-callback", "comment": "Return to app after OAuth login" },
           { "/": "/training/?????", "comment": "Puzzles" },
           { "/": "/study/????????", "comment": "Studies" },
           { "/": "/study/????????/????????", "comment": "Studies with explicit chapter ID" },
